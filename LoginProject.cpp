@@ -85,6 +85,7 @@ int loginmethod()
         string input;
         printf("incorrect username or password, please try again\n");
         printf("If you would like to create an account, please type 'create'\n");
+        printf("Otherwise, type anything and press enter: \n");
         cin >> input;
         if(input == "create"){
             createmethod();
